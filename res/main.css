@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div.text {
+    margin: auto;
+    width: 50%;
+}
+
+ul.navbar {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border: 5px solid white;
+}
+  
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+li.navItem {
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+
+li.navItem:last-child {
+    border-bottom: none;
+}
+  
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #333;
+    color: white;
+}
