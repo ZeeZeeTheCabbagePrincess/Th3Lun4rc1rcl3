@@ -12,8 +12,8 @@ function createNavbar(current)
 
     var about = document.createElement("li");
     about.setAttribute("class", "navItem");
-    about.setAttribute("id", "AboutUs");
-    about.innerHTML = "<a href=\"AboutUs.html\">What do we stand for?</a>";
+    about.setAttribute("id", "The Eye Of The Almighty");
+    about.innerHTML = "<a href=\"theEye.html\">What do we stand for?</a>";
 
     var sin = document.createElement("li");
     sin.setAttribute("class", "navItem");
