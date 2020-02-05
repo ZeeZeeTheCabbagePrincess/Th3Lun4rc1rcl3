@@ -1,6 +1,5 @@
 function createNavbar(current)
 {
-    console.log(current);
     var div = document.getElementById("navDiv");
     var navbar = document.createElement("ul");
     navbar.setAttribute("class", "navbar");
