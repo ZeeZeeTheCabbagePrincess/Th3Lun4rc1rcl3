@@ -9,7 +9,7 @@ function createNavbar(current)
     home.setAttribute("id", "Home");
     home.innerHTML = "<a href=\"index.html\">Home</a>";
 
-    var sin = document.createElement("li");
+    var about = document.createElement("li");
     sin.setAttribute("class", "navItem");
     sin.setAttribute("id", "aboutUs");
     sin.innerHTML = "<a href=\"aboutUs.html\">About Us</a>";
