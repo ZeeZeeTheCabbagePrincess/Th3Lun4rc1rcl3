@@ -7,22 +7,22 @@ function createNavbar(current)
     var home = document.createElement("li");
     home.setAttribute("class", "navItem");
     home.setAttribute("id", "Home");
-    home.innerHTML = "<a href=\"index.html\">Home</a>";
+    home.innerHTML = "<a href=\"index\">Home</a>";
 
     var about = document.createElement("li");
     about.setAttribute("class", "navItem");
     about.setAttribute("id", "aboutUs");
-    about.innerHTML = "<a href=\"aboutUs.html\">About Us</a>";
+    about.innerHTML = "<a href=\"aboutUs\">About Us</a>";
 
     var eye = document.createElement("li");
     eye.setAttribute("class", "navItem");
     eye.setAttribute("id", "The Eye Of The Almighty");
-    eye.innerHTML = "<a href=\"theEye.html\">The Eye Of The Almighty</a>";
+    eye.innerHTML = "<a href=\"theEye\">The Eye Of The Almighty</a>";
 
     var sin = document.createElement("li");
     sin.setAttribute("class", "navItem");
     sin.setAttribute("id", "5Sins");
-    sin.innerHTML = "<a href=\"Sins.html\">The 5 Sins</a>";
+    sin.innerHTML = "<a href=\"Sins\">The 5 Sins</a>";
 
     navbar.appendChild(home);
     navbar.appendChild(about);
