@@ -29,12 +29,12 @@ function createNavbar(current)
     joinUs.setAttribute("id", "joinUs");
     joinUs.innerHTML = "<a href=\"joinUs\">Join Us</a>";
     
-    navbar.appendChild(joinUs);
     navbar.appendChild(home);
     navbar.appendChild(about);
     navbar.appendChild(eye);
     navbar.appendChild(sin);
-
+    navbar.appendChild(joinUs);
+    
     div.appendChild(navbar);
 
     document.getElementById(current).classList.add("active");
