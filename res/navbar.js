@@ -23,7 +23,13 @@ function createNavbar(current)
     sin.setAttribute("class", "navItem");
     sin.setAttribute("id", "5Sins");
     sin.innerHTML = "<a href=\"Sins\">The 5 Sins</a>";
+
+    var joinUs = document.createElement("li");
+    joinUs.setAttribute("class", "navItem");
+    joinUs.setAttribute("id", "joinUs");
+    joinUs.innerHTML = "<a href=\"joinUs\">Join Us</a>";
     
+    navbar.appendChild(joinUs);
     navbar.appendChild(home);
     navbar.appendChild(about);
     navbar.appendChild(eye);
