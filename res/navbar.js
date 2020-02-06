@@ -12,7 +12,7 @@ function createNavbar(current)
     var about = document.createElement("li");
     about.setAttribute("class", "navItem");
     about.setAttribute("id", "aboutUs");
-    about.innerHTML = "<a href=\"aboutUs\">About Us</a>";
+    about.innerHTML = "<a href=\"aboutUs.html\">About Us</a>";
 
     var eye = document.createElement("li");
     eye.setAttribute("class", "navItem");
