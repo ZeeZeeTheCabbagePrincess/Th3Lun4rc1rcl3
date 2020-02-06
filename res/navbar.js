@@ -23,7 +23,7 @@ function createNavbar(current)
     sin.setAttribute("class", "navItem");
     sin.setAttribute("id", "5Sins");
     sin.innerHTML = "<a href=\"Sins\">The 5 Sins</a>";
-
+    
     navbar.appendChild(home);
     navbar.appendChild(about);
     navbar.appendChild(eye);
