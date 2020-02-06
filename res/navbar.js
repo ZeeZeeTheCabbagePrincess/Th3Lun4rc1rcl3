@@ -7,7 +7,7 @@ function createNavbar(current)
     var home = document.createElement("li");
     home.setAttribute("class", "navItem");
     home.setAttribute("id", "Home");
-    home.innerHTML = "<a href=\"index\">Home</a>";
+    home.innerHTML = "<a href=\"home\">Home</a>";
 
     var about = document.createElement("li");
     about.setAttribute("class", "navItem");
