@@ -11,3 +11,7 @@
 #mc_embed_signup .mc-field-group {
     width: 100%;
 }
+
+#mc_embed_signup div.response {
+    width: 100%;
+}
