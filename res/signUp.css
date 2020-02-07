@@ -1,0 +1,13 @@
+#mc_embed_signup {
+    margin-left: 35%;
+    width: 30%;
+    position:absolute;
+}
+
+#mc_embed_signup form {
+    text-align: center;
+}
+
+#mc_embed_signup .mc-field-group {
+    width: 100%;
+}
